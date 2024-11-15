@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice-Roller</title>
+
+    <style>
+        .container{
+            width: 400px;
+            display: block;
+            margin: 50px auto;
+            border: 2px solid #00cc44;
+            border-radius: 10px;
+            background-color: #b3ffcc;
+        }
+        .dice-cover{
+            width: 200px;
+            display: block;
+            margin: 30px auto;
+        }
+        .heading{
+            text-align: center;
+            color: #00802b;
+        }
+        .roll-btn{
+            width: 150px;
+            font-size: large;
+            padding: 5px;
+            border: none;
+            display: block;
+            margin: 20px auto;
+            border-radius: 20px;
+            background-color: #00cc44;
+            color: #006622;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Dice Roller</h1>
+        <img src="./img/dice.png" alt="dice-cover" class="dice-cover" id="dice-cover">
+        <button type="button" class="roll-btn" onclick="rollDice()"> Dice Roller </button>
+    </div>
+</body>
+</html>
